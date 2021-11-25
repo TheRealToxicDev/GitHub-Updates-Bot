@@ -49,8 +49,19 @@ function sendMessages(repo, message, guildId) {
             // notify 'something is happening' to malicious users
             return;
           }
-          channel.send(message);
+          
+          let embed = new MessageEmbed()
+            .setTitle('🎉 New GitHub Update!!')
+            .setColor('#CCFE00')
+            .setDescription(`${message}`)
+            .setTimestamp()
+            .setFooter('© 2021 - 2022 GitHub Updates | Made By: Toxic Dev', 'https://cdn.discordapp.com/attachments/653733403841134600/913163329118281768/IMG_1409.png')
+          
+          
+          channel.send(embed);
+          
         } else {
+          
           console.log('Error: Bot not allowed in channel');
         }
       });
