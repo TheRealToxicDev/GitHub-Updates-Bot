@@ -19,7 +19,7 @@ export default class Actions {
           }, (err, result) => {
             if (err) reject(err);
             db.close();
-            resolve(`Added a new subscription. ${repo} <---> ${channelId}`);
+            resolve('🎉 Added a new subscription. ${repo} <---> ${channelId}`);
           });
         });
       });
@@ -36,7 +36,7 @@ export default class Actions {
         }, (err, result) => {
           if (err) reject(err);
           db.close();
-          resolve(`Removed a subscription. ${repo} <-/-> ${channelId}`);
+          resolve(`🚫 Removed a subscription. ${repo} <-/-> ${channelId}`);
         });
       });
     });
