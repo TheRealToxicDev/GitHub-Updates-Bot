@@ -97,7 +97,7 @@ function parseMessage(message) {
   }
 }
 
-app.listen(process.env.PORT || 8080, () => {
+app.listen(process.env.PORT, () => {
   bot.login(config.token)
   .then(console.log('Logged in.'))
   .catch(error => console.log(error));
