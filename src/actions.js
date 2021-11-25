@@ -54,6 +54,6 @@ export default class Actions {
       .setTimestamp()
       .setFooter('© 2021 - 2022 GitHub Updates | Made By: Toxic Dev', 'https://cdn.discordapp.com/attachments/653733403841134600/913163329118281768/IMG_1409.png')
 
-    channel.send(helpMessage);
+    channel.send(embed);
   }
 }
