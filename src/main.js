@@ -86,7 +86,7 @@ bot.on('ready', () => {
       activities[2] = { name: 'GitHub Repo Updates', type: 'STREAMING', url: 'https://twitch.tv/monstercat' };
       activities[3] = { name: 'ghu! help', type: 'WATCHING' }; 
       if (activity > 3) activity = 0;
-      this.client.user.setActivity(activities[activity]);
+      bot.user.setActivity(activities[activity]);
       activity++;
     }, 35000);
 });
