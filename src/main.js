@@ -51,7 +51,7 @@ function sendMessages(repo, message, guildId) {
           }
           
           let embed = new MessageEmbed()
-            .setTitle('🎉 New GitHub Update!!')
+            .setTitle('New GitHub Update!!')
             .setColor('#CCFE00')
             .setDescription(`${message}`)
             .setTimestamp()
