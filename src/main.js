@@ -99,6 +99,6 @@ function parseMessage(message) {
 
 app.listen(process.env.PORT, () => {
   bot.login(config.token)
-  .then(console.log(`Logged in and listening to PORT: ${prcoess.env.PORT}.`))
+  .then(console.log(`Logged in and listening to PORT: ${process.env.PORT}.`))
   .catch(error => console.log(error));
 });
