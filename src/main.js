@@ -30,7 +30,7 @@ function handleRequest(req, res) {
 }
 
 app.get('/', (req, res) => {
-  res.send('This address is not meant to be accessed by a web browser. Please read the readme on GitHub');
+  res.send('Woah, This is just a useless API! Go Away!');
 });
 
 function sendMessages(repo, message, guildId) {
