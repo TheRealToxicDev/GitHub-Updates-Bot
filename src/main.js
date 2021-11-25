@@ -1,5 +1,6 @@
 import express from 'express';
 import bodyParser from 'body-parser';
+import { MessageEmbed } from 'discord.js';
 import Discord from 'discord.js';
 import { Message } from 'discord.js';
 import { MongoClient } from 'mongodb';
