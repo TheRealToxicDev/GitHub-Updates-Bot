@@ -80,11 +80,16 @@ function sendMessages(repo, message, guildId) {
  */
 bot.on('ready', () => {
   
+    const activities = [
+      { name: 'GitHub Repo Updates', type: 'STREAMING' }, 
+      { name: 'ghu! help', type: 'WATCHING' }
+    ];
+  
     let activity = 1;
   
     setInterval(() => {
-      activities[2] = { name: 'GitHub Repo Updates', type: 'STREAMING', url: 'https://twitch.tv/monstercat' };
-      activities[3] = { name: 'ghu! help', type: 'WATCHING' }; 
+      activities[2] = { name: 'Add a New Repo', type: 'STREAMING', url: 'https://twitch.tv/monstercat' };
+      activities[3] = { name: 'Woah, Im Cool!', type: 'WATCHING' }; 
       if (activity > 3) activity = 0;
       bot.user.setActivity(activities[activity]);
       activity++;
