@@ -19,7 +19,18 @@ export default class Actions {
           }, (err, result) => {
             if (err) reject(err);
             db.close();
-            resolve(`🎉 Added a new subscription. ${repo} <---> ${channelId}`);
+            
+            let embed1 = new MessageEmbed()
+              .setTitle('✔️ New Subscription')
+              .setColor('#CCFE00')
+              .setDescription('I have subscribed to a new Repo!')
+              .addField('Repo', `${repo}`, true)
+              .addField('Channel', `<#${channelId}> (${channelId})`, true)
+              .setTimestamp()
+              .setFooter('© 2021 - 2022 GitHub Updates | Made By: Toxic Dev', 'https://cdn.discordapp.com/attachments/653733403841134600/913163329118281768/IMG_1409.png')
+            
+            //resolve(`🎉 Added a new subscription. ${repo} <---> ${channelId}`);
+            resolve(embed1);
           });
         });
       });
@@ -44,7 +55,7 @@ export default class Actions {
 
   static help(channel) {
 
-    let embed = new MessageEmbed()
+    let embed3 = new MessageEmbed()
       .setTitle('GitHub Updates | Help')
       .setColor('#CCFE00')
       .setDescription('Usage: `ghu! <command> [value]`')
@@ -54,18 +65,18 @@ export default class Actions {
       .setTimestamp()
       .setFooter('© 2021 - 2022 GitHub Updates | Made By: Toxic Dev', 'https://cdn.discordapp.com/attachments/653733403841134600/913163329118281768/IMG_1409.png')
 
-    channel.send(embed);
+    channel.send(embed3);
   }
   
   static invite(channel) {
 
-    let embed = new MessageEmbed()
+    let embed4 = new MessageEmbed()
       .setTitle('Woah, You think im cool?')
       .setColor('#CCFE00')
       .setDescription('Invite me Here: https://discord.com/api/oauth2/authorize?client_id=896602816838250549&permissions=543850626288&scope=bot')
       .setTimestamp()
       .setFooter('© 2021 - 2022 GitHub Updates | Made By: Toxic Dev', 'https://cdn.discordapp.com/attachments/653733403841134600/913163329118281768/IMG_1409.png')
 
-    channel.send(embed);
+    channel.send(embed4);
   }
 }
