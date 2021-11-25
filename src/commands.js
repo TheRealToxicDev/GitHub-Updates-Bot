@@ -40,4 +40,8 @@ export default class Commands {
   static help(channel) {
     return Actions.help(channel);
   }
+  
+  static invite(channel) {
+    return Actions.invite(channel);
+  }
 }
