@@ -43,7 +43,7 @@ function sendMessages(repo, message, guildId) {
     .toArray((err, subscriptions) => {
       db.close();
       subscriptions.forEach(subscription => {
-        const channel = bot.channels.find(c => c.id === subscription.channelId);
+        const channel = bot.channels.cache.find(c => c.id === subscription.channelId);
         if (channel) {
           if (guildId != null && channel.guild_id !== guildId) {
             // If guild ID doesn't match, silently drop the request as it can
