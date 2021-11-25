@@ -78,6 +78,19 @@ function sendMessages(repo, message, guildId) {
  * - If the command is prefaced, check if the command exists.
  * - Then perform the action sepcified.
  */
+bot.on('ready', () => {
+  
+    let activity = 1;
+  
+    setInterval(() => {
+      activities[2] = { name: 'GitHub Repo Updates', type: 'STREAMING', url: 'https://twitch.tv/monstercat' };
+      activities[3] = { name: 'ghu! help', type: 'WATCHING' }; 
+      if (activity > 3) activity = 0;
+      this.client.user.setActivity(activities[activity]);
+      activity++;
+    }, 35000);
+});
+
 bot.on('message', (message) => {
   if (message.author.id === bot.user.id) return;
   if (message.content.substring(0, 4) !== 'ghu!') return;
