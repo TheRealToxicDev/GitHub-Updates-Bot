@@ -56,14 +56,14 @@ export default class Actions {
   static help(channel) {
 
     let embed3 = new MessageEmbed()
-      .setTitle('GitHub Updates | Help')
+      .setTitle('Mapleshade | Help')
       .setColor('#CCFE00')
-      .setDescription('Usage: `ghu! <command> [value]`')
-      .addField('Help', `add <repo> - Adds a subscription for the current channel`, true)
-      .addField('Add', `remove <repo> - Removes a subscription for the current channel`, true)
-      .addField('Remove', `help - Displays this help message`, true)
+      .setDescription('Usage: `cat! <command> [value]`')
+      .addField('Help', `help - Shows this help message`, true)
+      .addField('Add', `add <repo> - Subscribe to a Repo in the Current Channel`, true)
+      .addField('Remove', `remove <repo> - Remove a subscription from the Current Channel`, true)
       .setTimestamp()
-            .setFooter('© 2021 - 2022 Mapleshade', 'https://cdn.discordapp.com/attachments/653733403841134600/916607168734691328/Mapleshade.NO-7.png')
+      .setFooter('© 2021 - 2022 Mapleshade', 'https://cdn.discordapp.com/attachments/653733403841134600/916607168734691328/Mapleshade.NO-7.png')
 
     channel.send(embed3);
   }
