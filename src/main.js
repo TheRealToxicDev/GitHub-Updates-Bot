@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import { MessageEmbed } from 'discord.js';
-const { Client, Intents } = require('discord.js');
+const { Client, Intents, Permissions } = require('discord.js');
 import { Message } from 'discord.js';
 import { MongoClient } from 'mongodb';
 import Commands from './commands';
@@ -24,7 +24,11 @@ function handleRequest(req, res) {
   const event = req.get("X-GitHub-Event");
   if (event) {
     setTimeout(() => {
-      const message = Events[event](req.body);
+      let eventF = Events[event]
+      if (!eventF) {
+	      return
+      }
+      const message = eventF(req.body);
       const repo = req.body.repository.full_name.toLowerCase();
       sendMessages(repo, message, req.params.guildId);
     }, 0); // Do all this asynchronously without blocking res.sendStatus
@@ -63,7 +67,7 @@ function sendMessages(repo, message, guildId) {
             .setFooter('© 2021 - 2022 Mapleshade', 'https://cdn.discordapp.com/attachments/653733403841134600/916607168734691328/Mapleshade.NO-7.png')
           
           
-          channel.send(embed);
+          channel.send({embeds: [embed]});
           
         } else {
           
@@ -100,9 +104,10 @@ bot.on('ready', () => {
     }, 35000);
 });
 
-bot.on('message', (message) => {
+bot.on('messageCreate', (message) => {
   if (message.author.id === bot.user.id) return;
-  if (!message.member.hasPermission("ADMINISTRATOR")) return;
+  if (!message.member) return;
+  if (!message.member.permissions.has(Permissions.FLAGS.ADMINISTRATOR)) return;
   if (message.guild.id !== '789934742128558080') return;
   if (message.content.substring(0, 4) !== 'cat!') return;
 

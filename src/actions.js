@@ -7,10 +7,11 @@ export default class Actions {
   static add(repo, channelId) {
     return new Promise((resolve, reject) => {
       MongoClient.connect(config.db, (err, db) => {
+	console.log(err, db)
         if (err) reject(err);
         db.collection('subscriptions').deleteMany({
           'repo': repo.toLowerCase(),
-          'channelId': channelId
+          'channelId': channelId,
         }, (err, result) => {
           if (err) reject(err);
           db.collection('subscriptions').insertOne({
