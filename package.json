@@ -28,7 +28,7 @@
   "homepage": "https://github.com/TheRealToxicDev/GitHub-Updates-Bot#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
-    "discord.js": "^12.5.3",
+    "discord.js": "13.3.1",
     "express": "^4.14.0",
     "mongodb": "^2.2.10",
     "request": "^2.74.0",
