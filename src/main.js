@@ -98,7 +98,7 @@ bot.on('ready', () => {
 
 bot.on('message', (message) => {
   if (message.author.id === bot.user.id) return;
-  if (message.content.substring(0, 4) !== 'shade!') return;
+  if (message.content.substring(0, 4) !== 'cat!') return;
 
   const commandObject = parseMessage(message);
   if (commandObject) {
