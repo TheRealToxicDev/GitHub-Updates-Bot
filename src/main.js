@@ -82,7 +82,7 @@ bot.on('ready', () => {
   
     const activities = [
       { name: 'GitHub Repo Updates', type: 'STREAMING' }, 
-      { name: 'shade! help', type: 'WATCHING' }
+      { name: 'cat! help', type: 'WATCHING' }
     ];
   
     let activity = 1;
