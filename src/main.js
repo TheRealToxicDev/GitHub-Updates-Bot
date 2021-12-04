@@ -1,7 +1,7 @@
 import express from 'express';
 import bodyParser from 'body-parser';
 import { MessageEmbed } from 'discord.js';
-import Discord from 'discord.js';
+const { Client, Intents } = require('discord.js');
 import { Message } from 'discord.js';
 import { MongoClient } from 'mongodb';
 import Commands from './commands';
@@ -9,7 +9,9 @@ import Events from './events';
 import config from './config';
 
 const app = express();
-const bot = new Discord.Client();
+const bot = new Client(
+  { intents: [Intents.FLAGS.GUILDS] }
+);
 
 app.use(bodyParser.json());
 
