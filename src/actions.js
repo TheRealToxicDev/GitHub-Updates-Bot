@@ -30,7 +30,7 @@ export default class Actions {
             .setFooter('© 2021 - 2022 Mapleshade', 'https://cdn.discordapp.com/attachments/653733403841134600/916607168734691328/Mapleshade.NO-7.png')
             
             //resolve(`🎉 Added a new subscription. ${repo} <---> ${channelId}`);
-            resolve(embed1);
+            resolve({embeds: [embed1]});
           });
         });
       });
@@ -65,6 +65,6 @@ export default class Actions {
       .setTimestamp()
       .setFooter('© 2021 - 2022 Mapleshade', 'https://cdn.discordapp.com/attachments/653733403841134600/916607168734691328/Mapleshade.NO-7.png')
 
-    channel.send(embed3);
+    channel.send({embeds: [embed3]});
   }
 }
