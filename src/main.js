@@ -56,7 +56,7 @@ function sendMessages(repo, message, guildId) {
             .setColor('#CCFE00')
             .setDescription(`${message}`)
             .setTimestamp()
-            .setFooter('© 2021 - 2022 GitHub Updates | Made By: Toxic Dev', 'https://cdn.discordapp.com/attachments/653733403841134600/913163329118281768/IMG_1409.png')
+            .setFooter('© 2021 - 2022 Mapleshade', 'https://cdn.discordapp.com/attachments/653733403841134600/916607168734691328/Mapleshade.NO-7.png')
           
           
           channel.send(embed);
