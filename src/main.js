@@ -10,7 +10,7 @@ import config from './config';
 
 const app = express();
 const bot = new Client(
-  { intents: [Intents.FLAGS.GUILDS] }
+  { intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] }
 );
 
 app.use(bodyParser.json());
