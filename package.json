@@ -1,5 +1,5 @@
 {
-  "name": "discord-bot-github",
+  "name": "ibl-git-old",
   "version": "0.4.7",
   "description": "A Discord bot which lets you subscribe to GitHub events and reports about your subscriptions.",
   "main": "build/bundle.js",
@@ -13,19 +13,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Falconerd/discord-bot-github.git"
+    "url": "git+https://github.com/TheRealToxicDev/GitHub-Updates-Bot"
   },
   "keywords": [
     "Discord",
     "GitHub",
     "Bot"
   ],
-  "author": "Dylan Falconer <me@falconerd.com> (http://falconerd.com)",
+  "author": "Toxic Dev (https://toxicdev.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Falconerd/discord-bot-github/issues"
+    "url": "https://github.com/TheRealToxicDev/GitHub-Updates-Bot/issues"
   },
-  "homepage": "https://github.com/Falconerd/discord-bot-github#readme",
+  "homepage": "https://github.com/TheRealToxicDev/GitHub-Updates-Bot#readme",
   "dependencies": {
     "body-parser": "^1.15.2",
     "discord.js": "^12.5.3",
