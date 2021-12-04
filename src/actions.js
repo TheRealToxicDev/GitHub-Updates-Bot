@@ -27,7 +27,7 @@ export default class Actions {
               .addField('Repo', `${repo}`, true)
               .addField('Channel', `<#${channelId}> (${channelId})`, true)
               .setTimestamp()
-              .setFooter('© 2021 - 2022 GitHub Updates | Made By: Toxic Dev', 'https://cdn.discordapp.com/attachments/653733403841134600/913163329118281768/IMG_1409.png')
+            .setFooter('© 2021 - 2022 Mapleshade', 'https://cdn.discordapp.com/attachments/653733403841134600/916607168734691328/Mapleshade.NO-7.png')
             
             //resolve(`🎉 Added a new subscription. ${repo} <---> ${channelId}`);
             resolve(embed1);
@@ -63,20 +63,8 @@ export default class Actions {
       .addField('Add', `remove <repo> - Removes a subscription for the current channel`, true)
       .addField('Remove', `help - Displays this help message`, true)
       .setTimestamp()
-      .setFooter('© 2021 - 2022 GitHub Updates | Made By: Toxic Dev', 'https://cdn.discordapp.com/attachments/653733403841134600/913163329118281768/IMG_1409.png')
+            .setFooter('© 2021 - 2022 Mapleshade', 'https://cdn.discordapp.com/attachments/653733403841134600/916607168734691328/Mapleshade.NO-7.png')
 
     channel.send(embed3);
-  }
-  
-  static invite(channel) {
-
-    let embed4 = new MessageEmbed()
-      .setTitle('Woah, You think im cool?')
-      .setColor('#CCFE00')
-      .setDescription('Invite me Here: https://discord.com/api/oauth2/authorize?client_id=896602816838250549&permissions=543850626288&scope=bot')
-      .setTimestamp()
-      .setFooter('© 2021 - 2022 GitHub Updates | Made By: Toxic Dev', 'https://cdn.discordapp.com/attachments/653733403841134600/913163329118281768/IMG_1409.png')
-
-    channel.send(embed4);
   }
 }
