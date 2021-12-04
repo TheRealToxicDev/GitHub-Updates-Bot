@@ -82,7 +82,7 @@ bot.on('ready', () => {
   
     const activities = [
       { name: 'GitHub Repo Updates', type: 'STREAMING' }, 
-      { name: 'ghu! help', type: 'WATCHING' }
+      { name: 'shade! help', type: 'WATCHING' }
     ];
   
     let activity = 1;
@@ -98,7 +98,7 @@ bot.on('ready', () => {
 
 bot.on('message', (message) => {
   if (message.author.id === bot.user.id) return;
-  if (message.content.substring(0, 4) !== 'ms.') return;
+  if (message.content.substring(0, 4) !== 'shade!') return;
 
   const commandObject = parseMessage(message);
   if (commandObject) {
