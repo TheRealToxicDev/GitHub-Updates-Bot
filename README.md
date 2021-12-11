@@ -18,6 +18,7 @@ Command | Description
 1. Download or Fork this Repo.
 2. Upload to GitHub and Deploy to your Host of choice
 3. Set the Env Variables listed below
+4. Run `npm start` to start the Bot and Server!
 
 --- 
 
