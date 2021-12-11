@@ -27,3 +27,14 @@ Command | Description
 ## Env Variables
 - `DBG_DB` - Mongoose Connection String
 - `DBG_TOKEN` - Discord Bot Token
+
+---
+
+## Bot Updates
+1. This bot has been Updated to `Discord.js v13`
+2. This bot has been Deprecated and made Open-Source
+3. New (public) Version of this bot can be found [here](https://github.dbots.site/invite)
+
+---
+
+
