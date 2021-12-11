@@ -27,6 +27,10 @@ Command | Description
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 
+<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2FTheRealToxicDev%2FGitHub-Updates-Bot&plugins=mongodb&envs=DBG_TOKEN%2CDBG_DB">
+     <img src="https://railway.app/button.svg" alt="Deploy">
+</a>
+
 --- 
 
 ## Env Variables
