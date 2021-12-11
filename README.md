@@ -23,9 +23,9 @@ Command | Description
 
 **NOTE:** Domain for the Webhook Server will be whatever your Hosting Domain is set to
 
-   <a href="https://heroku.com/deploy?template=https://github.com/Tox-Mod/ToxModBot">
-     <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-   </a>
+<a href="https://heroku.com/deploy?template=https://github.com/TheRealToxicDev/GitHub-Updates-Bot">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
 
 --- 
 
