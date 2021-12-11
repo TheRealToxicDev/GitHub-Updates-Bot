@@ -9,9 +9,9 @@
 
 Command | Description
 --------|------------
-`cat!add` - Subscribe to a Repo in the Current Channel
-`cat!remove` - UnSubscribe from a Repo in the Current Channel
-`cat!help` - Display the Bots Help Message and Commands List
+`cat!add` | Subscribe to a Repo in the Current Channel
+`cat!remove` | UnSubscribe from a Repo in the Current Channel
+`cat!help` | Display the Bots Help Message and Commands List
 
 ---
 
