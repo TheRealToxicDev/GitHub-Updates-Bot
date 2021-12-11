@@ -22,5 +22,5 @@ Command | Description
 --- 
 
 ## Env Variables
-`DBG_DB` - Mongoose Connection String
-`DBG_TOKEN` - Discord Bot Token
+- `DBG_DB` - Mongoose Connection String
+- `DBG_TOKEN` - Discord Bot Token
