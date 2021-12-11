@@ -13,3 +13,14 @@ Command | Description
 `cat!help` - Display the Bots Help Message and Commands List
 
 ---
+
+## Self Hosting
+1. Download or Fork this Repo.
+2. Upload to GitHub and Deploy to your Host of choice
+3. Set the Env Variables listed below
+
+--- 
+
+## Env Variables
+`DBG_DB` - Mongoose Connection String
+`DBG_TOKEN` - Discord Bot Token
