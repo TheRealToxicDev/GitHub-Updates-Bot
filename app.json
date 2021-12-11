@@ -1,0 +1,31 @@
+
+{
+  "name": "GitHub-Updates-Bot",
+  "description": "Displays notifications in your Discord channels when selected GitHub events are triggered. ",
+  "repository": "https://github.com/TheRealToxicDev/GitHub-Updates-Bot",
+  "logo": "https://cdn.discordapp.com/attachments/653733403841134600/919219605661159454/C768AB95-F059-46E8-A435-15644283EF6F.png",
+  "website": "https://dbots.site/discord",
+  "success_url": "/",
+  "keywords": [
+    "node",
+    "discord",
+    "github",
+    "bot"
+  ],
+  "image": "heroku/nodejs",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ],
+  "env": {
+    "DBG_TOKEN": {
+      "description": "The Discord Bot Token (https://discord.com/developers/applications)",
+      "required": "true"
+    },
+    "DBG_DB": {
+      "description": "Mongoose Database Connection Stirng (URL)",
+      "required": "true"
+    }
+  }
+}
