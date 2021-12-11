@@ -20,6 +20,8 @@ Command | Description
 3. Set the Env Variables listed below
 4. Run `npm start` to start the Bot and Server!
 
+NOTE: Domain for the Webhook Server will be whatever your Hosting Domain is set to
+
 --- 
 
 ## Env Variables
