@@ -1,5 +1,5 @@
 # GitHub Updates
-![Bot Version](https://img.shields.io/github/package-json/v/TheRealToxicDev/GitHub-Updates-Bot?style=flat-square&logo=github&label=Version&color=%2334D058) ![Discord.js Version](https://img.shields.io/badge/Discord.js-v13.3.1-%2334d058?style=flat-square&logo=npm&logoColor=fff) ![Owner Info](https://img.shields.io/badge/Owner-TheRealToxicDev-%2334d058?style=flat-square&logo=codepen&logoColor=fff)()
+![Bot Version](https://img.shields.io/github/package-json/v/TheRealToxicDev/GitHub-Updates-Bot?style=flat-square&logo=github&label=Version&color=%2334D058) ![Discord.js Version](https://img.shields.io/badge/Discord.js-v13.3.1-%2334d058?style=flat-square&logo=npm&logoColor=fff) ![Owner Info](https://img.shields.io/badge/Owner-TheRealToxicDev-%2334d058?style=flat-square&logo=codepen&logoColor=fff) ![License Info](https://img.shields.io/badge/License-MIT-%2334d058?style=flat-square&logo=legal&logoColor=fff)
 
 - Displays notifications in your Discord channels when selected events are triggered.
 
