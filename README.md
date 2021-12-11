@@ -1,6 +1,5 @@
 # GitHub Updates
-   <img src="https://img.shields.io/github/package-json/v/TheRealToxicDev/GitHub-Updates-Bot?style=flat-square&logo=github&label=Version&color=%2334D058" alt="Tox Version" />
-   <img src="https://img.shields.io/badge/Discord.js-v13.3.1-%2334d058?style=flat-square&logo=npm&logoColor=fff" alt="DJS Version" />
+![Bot Version](https://img.shields.io/github/package-json/v/TheRealToxicDev/GitHub-Updates-Bot?style=flat-square&logo=github&label=Version&color=%2334D058) ![Discord.js Version](https://img.shields.io/badge/Discord.js-v13.3.1-%2334d058?style=flat-square&logo=npm&logoColor=fff)
 
 - Displays notifications in your Discord channels when selected events are triggered.
 
