@@ -3,6 +3,7 @@
   "version": "0.4.7",
   "description": "A Discord bot which lets you subscribe to GitHub events and reports about your subscriptions.",
   "main": "build/bundle.js",
+  "engineStrict": true,
   "scripts": {
     "test": "echo \"No tests\"",
     "build": "./node_modules/.bin/rollup -c",
