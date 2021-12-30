@@ -41,8 +41,8 @@ Command | Description
 
 ## Bot Updates
 1. This bot has been Updated to `Discord.js v13`
-2. This bot has been Deprecated and made Open-Source
-3. New (public) Version of this bot can be found [here](https://github.dbots.site/invite)
+2. New (public) Version of this bot can be found [here](https://github.dbots.site/invite)
+3. We will try to Update and Maintain this Bot the best we can ❤️
 
 ---
 
