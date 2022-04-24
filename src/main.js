@@ -108,7 +108,6 @@ bot.on('messageCreate', (message) => {
   if (message.author.id === bot.user.id) return;
   if (!message.member) return;
   if (!message.member.permissions.has(Permissions.FLAGS.ADMINISTRATOR)) return;
-  if (message.guild.id !== '789934742128558080') return;
   if (message.content.substring(0, 4) !== 'cat!') return;
 
   const commandObject = parseMessage(message);
