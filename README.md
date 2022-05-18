@@ -45,10 +45,26 @@ Command | Description
 3. We will try to Update and Maintain this Bot the best we can ❤️
 
 ---
+## Note:
 
-## Side Note:
 I am working on a update for the bot that will rework, improve and update most of its layout
 Aswell as adding a dashboard and a few extra features. This update is a work in progress and
 will hopefully be ready soon 👌🏻
+
+### Planned Changes
+
+- [x] Update to latest Discord.js
+- [x] Upgrade to Fastify for API
+- [x] Rework the GitHub Events
+- [ ] Add More GitHub Events to fix the Null Event
+- [x] Rework the Discord Client
+- [x] Move to Mongoose from MongoDB
+- [ ] Create the base NextJS App
+- [ ] Create the Dashboard Pages
+- [ ] Create some Legal Pages
+- [ ] Ensure Website is Mobile First
+
+These updates will be posted as a whole when everything is complete and ready ❤️
+
 
 
