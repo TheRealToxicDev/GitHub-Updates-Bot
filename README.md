@@ -62,7 +62,11 @@ will hopefully be ready soon 👌🏻
 - [ ] Create the base NextJS App
 - [ ] Create the Dashboard Pages
 - [ ] Create some Legal Pages
-- [ ] Ensure Website is Mobile First
+- [ ] Ensure Website is Mobile Friendly
+- [x] Add a Custom Logger for Errors and Console Logs
+- [x] Add Discord Client Event Handlers
+- [x] Add a Functional Database Client
+
 
 These updates will be posted as a whole when everything is complete and ready ❤️
 
