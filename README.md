@@ -68,7 +68,7 @@ will hopefully be ready soon 👌🏻
 - [x] Add a Functional Database Client
 
 
-These updates will be posted as a whole when everything is complete and ready ❤️
+These updates will be posted as a New Major Version when everything is complete and ready ❤️
 
 
 
