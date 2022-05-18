@@ -46,4 +46,9 @@ Command | Description
 
 ---
 
+## Side Note:
+I am working on a update for the bot that will rework, improve and update most of its layout
+Aswell as adding a dashboard and a few extra features. This update is a work in progress and
+will hopefully be ready soon 👌🏻
+
 
