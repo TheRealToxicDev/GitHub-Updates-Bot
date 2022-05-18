@@ -66,6 +66,7 @@ will hopefully be ready soon 👌🏻
 - [x] Add a Custom Logger for Errors and Console Logs
 - [x] Add Discord Client Event Handlers
 - [x] Add a Functional Database Client
+- [ ] Add a Debugging Log which will clearly state if Events are Successful or Not
 
 
 These updates will be posted as a New Major Version when everything is complete and ready ❤️
